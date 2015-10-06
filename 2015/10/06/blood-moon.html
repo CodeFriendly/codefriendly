@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Blood Moon</title>
-  <meta name="description" content="">
+  <meta name="description" content="The moon was awesome.">
 
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://codefriendly.github.io/2015/10/06/blood-moon.html">
@@ -62,7 +62,17 @@
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    
+    <p>The moon was awesome.</p>
+
+<p>Really.</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">show</span>
+  <span class="vi">@widget</span> <span class="o">=</span> <span class="no">Widget</span><span class="p">(</span><span class="n">params</span><span class="o">[</span><span class="ss">:id</span><span class="o">]</span><span class="p">)</span>
+  <span class="n">respond_to</span> <span class="k">do</span> <span class="o">|</span><span class="nb">format</span><span class="o">|</span>
+    <span class="nb">format</span><span class="o">.</span><span class="n">html</span> <span class="c1"># show.html.erb</span>
+    <span class="nb">format</span><span class="o">.</span><span class="n">json</span> <span class="p">{</span> <span class="n">render</span> <span class="ss">json</span><span class="p">:</span> <span class="vi">@widget</span> <span class="p">}</span>
+  <span class="k">end</span>
+<span class="k">end</span></code></pre></div>
 
   </div>
 
