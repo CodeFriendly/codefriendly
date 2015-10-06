@@ -6,8 +6,8 @@
 </description>
     <link>http://codefriendly.github.io/</link>
     <atom:link href="http://codefriendly.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 06 Oct 2015 16:12:34 -0500</pubDate>
-    <lastBuildDate>Tue, 06 Oct 2015 16:12:34 -0500</lastBuildDate>
+    <pubDate>Tue, 06 Oct 2015 16:14:21 -0500</pubDate>
+    <lastBuildDate>Tue, 06 Oct 2015 16:14:21 -0500</lastBuildDate>
     <generator>Jekyll v3.0.0.pre.beta9</generator>
     
       <item>
@@ -18,6 +18,10 @@
         <link>http://codefriendly.github.io/2015/10/06/blood-moon.html</link>
         <guid isPermaLink="true">http://codefriendly.github.io/2015/10/06/blood-moon.html</guid>
         
+        
+        <category>photography</category>
+        
+        <category>night</category>
         
       </item>
     
